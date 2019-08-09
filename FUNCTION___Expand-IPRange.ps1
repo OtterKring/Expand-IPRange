@@ -68,7 +68,7 @@ function Expand-IPRange {
             # convert all to string and glue together with dots
             [string]($IPint -shr 24) + '.' + [string](($IPint -shr 16) % $8Bit) + '.' + [string](($IPint -shr 8) % $8Bit) + '.' + [string]($IPint % $8Bit)
 
-        } until ($IPint - $IPBase -eq $IPCount)
+        } until ($IPint - $IPBase -ge $IPCount)
 
     }
 
