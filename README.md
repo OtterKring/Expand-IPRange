@@ -1,6 +1,4 @@
-<center><a href="https://otterkring.github.io/MainPage" style="font-size:75%;">return to MainPage</a></center>
-
-# PS_Expand-IPRange
+# Expand-IPRange
 
 ## Calculate all ip addresses for a given IP range
 
